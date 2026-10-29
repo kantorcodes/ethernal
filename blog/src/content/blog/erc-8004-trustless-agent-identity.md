@@ -28,7 +28,7 @@ In human commerce, you use LinkedIn, professional reviews, and referrals. Agents
 
 ERC-8004's answer: deploy three registry contracts per chain. Agents register once. Any other agent, human, or contract can query trust signals permissionlessly. No bilateral agreements required. No API key. No account with a reputation provider.
 
-The spec, finalized August 2025 and deployed on Ethereum mainnet January 29, 2026, was authored by Marco De Rossi (MetaMask), Davide Crapis (Ethereum Foundation AI Lead), Jordan Ellis (Google), and Erik Reppel (Coinbase).<sup>[1](#fn-1)</sup> ENS, EigenLayer, The Graph, and Taiko committed to integrations before mainnet launch. Within weeks, more than 20,000 agents had registered across Ethereum, Base, and BNB Chain.<sup>[2](#fn-2)</sup>
+The ERC-8004 proposal, created in August 2025 and still listed as [Draft in Ethereum's EIP registry](https://eips.ethereum.org/EIPS/eip-8004) as of October 2026, was authored by Marco De Rossi (MetaMask), Davide Crapis (Ethereum Foundation AI Lead), Jordan Ellis (Google), and Erik Reppel (Coinbase). Reference registry contracts were deployed on Ethereum mainnet in January 2026; implementation and deployment do not establish Final status.<sup>[1](#fn-1)</sup> ENS, EigenLayer, The Graph, and Taiko committed to integrations before mainnet launch. Within weeks, more than 20,000 agents had registered across Ethereum, Base, and BNB Chain.<sup>[2](#fn-2)</sup>
 
 The design analogy from the spec itself is precise: ERC-8004 is to agent trust what DNS is to internet routing. A neutral lookup layer. No single party controls the algorithm.
 
@@ -168,7 +168,7 @@ ERC-8004 does not tell you to trust an agent. It gives you the evidence to decid
 
 That framing is the whole point. A system that tells you to trust something is a platform. One that gives you the raw evidence is infrastructure.
 
-The registry layer is now complete and live on mainnet. The aggregator layer is where competition will play out through 2026 and 2027. Competing services will read the same raw onchain data and build different scoring models, different weighting algorithms, different trust thresholds. That competition is the intended outcome.
+Registry contracts are live on mainnet, but [the ERC-8004 proposal remains Draft](https://eips.ethereum.org/EIPS/eip-8004) in Ethereum's standards process. The aggregator layer is where competition will play out through 2026 and 2027. Competing services will read the same raw onchain data and build different scoring models, different weighting algorithms, different trust thresholds. That competition is the intended outcome.
 
 The v2 roadmap targets deeper MCP integration and standardized x402 payment-proof schemas inside feedback attestations. Reputation will start incorporating payment history: not just subjective scores, but cryptographic proof that the agent completed paid work and the payment went through. The signal quality improves as the commerce layer and the trust layer converge.
 
