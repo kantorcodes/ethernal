@@ -28,7 +28,7 @@ In human commerce, you use LinkedIn, professional reviews, and referrals. Agents
 
 ERC-8004's answer: deploy three registry contracts per chain. Agents register once. Any other agent, human, or contract can query trust signals permissionlessly. No bilateral agreements required. No API key. No account with a reputation provider.
 
-The spec, finalized August 2025 and deployed on Ethereum mainnet January 29, 2026, was authored by Marco De Rossi (MetaMask), Davide Crapis (Ethereum Foundation AI Lead), Jordan Ellis (Google), and Erik Reppel (Coinbase).<sup>[1](#fn-1)</sup> ENS, EigenLayer, The Graph, and Taiko committed to integrations before mainnet launch. Within weeks, more than 20,000 agents had registered across Ethereum, Base, and BNB Chain.<sup>[2](#fn-2)</sup>
+ERC-8004 was proposed in August 2025 and remains in Draft status, although registry contracts were deployed on Ethereum mainnet on January 29, 2026. The proposal was authored by Marco De Rossi (MetaMask), Davide Crapis (Ethereum Foundation AI Lead), Jordan Ellis (Google), and Erik Reppel (Coinbase).<sup>[1](#fn-1)</sup> ENS, EigenLayer, The Graph, and Taiko committed to integrations before mainnet launch. Within weeks, more than 20,000 agents had registered across Ethereum, Base, and BNB Chain.<sup>[2](#fn-2)</sup>
 
 The design analogy from the spec itself is precise: ERC-8004 is to agent trust what DNS is to internet routing. A neutral lookup layer. No single party controls the algorithm.
 
